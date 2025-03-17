@@ -1,0 +1,385 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.Accounts.Invoices",
+      "Group": "Enterprise",
+      "Category": "Accounts",
+      "Name": "Invoices",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.Accounts.Invoices.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Enterprise.Accounts.Invoices.Invoicenumber",
+          "FieldName": "Invoice number",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "Enterprise.Accounts.Invoices.AmountDue",
+          "FieldName": "Amount Due",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "Enterprise.Accounts.Invoices.Billedtodate",
+          "FieldName": "Billed to date",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.Accounts.Receipts",
+      "Group": "Enterprise",
+      "Category": "Accounts",
+      "Name": "Receipts",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.Accounts.Receipts.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Enterprise.Accounts.Receipts.BillNo",
+          "FieldName": "Bill No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "Enterprise.Accounts.Receipts.Partyname",
+          "FieldName": "Party name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.HR.Resume",
+      "Group": "Enterprise",
+      "Category": "HR",
+      "Name": "Resume",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.HR.Resume.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.HR.Passport",
+      "Group": "Enterprise",
+      "Category": "HR",
+      "Name": "Passport",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.HR.Passport.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.HR.Pancard",
+      "Group": "Enterprise",
+      "Category": "HR",
+      "Name": "Pan card",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.HR.Pancard.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.IT.Forms",
+      "Group": "Enterprise",
+      "Category": "IT",
+      "Name": "Forms",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.IT.Forms.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.IT.Catalogs",
+      "Group": "Enterprise",
+      "Category": "IT",
+      "Name": "Catalogs",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.IT.Catalogs.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.IT.SOP",
+      "Group": "Enterprise",
+      "Category": "IT",
+      "Name": "SOP",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.IT.SOP.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.Marketing.Presales",
+      "Group": "Enterprise",
+      "Category": "Marketing",
+      "Name": "Presales",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.Marketing.Presales.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.Marketing.Campaigns",
+      "Group": "Enterprise",
+      "Category": "Marketing",
+      "Name": "Campaigns",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.Marketing.Campaigns.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Enterprise.Marketing.Agreements",
+      "Group": "Enterprise",
+      "Category": "Marketing",
+      "Name": "Agreements",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Enterprise.Marketing.Agreements.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Enterprise",
+      "Categories": [
+        "Accounts",
+        "HR",
+        "IT",
+        "Marketing"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    },
+    {
+      "Name": "Turkish",
+      "Code": "tur"
+    }
+  ]
+}

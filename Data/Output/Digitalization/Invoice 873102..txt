@@ -1,0 +1,33 @@
+ExpoHub expohub street
+
+II
+
+UIPATH EXPOHUB
+
+123456789
+
+ABC 123456 India
+
+Billed To Rahul Jignesh.
+
+Description Shared Hosting LateFee
+
+Date of Issue 22/04/2020
+
+Due Date 22/05/2020
+
+Invoice Number 873100.
+
+Rate Rs.88,900.00 Rs.700.00 Rs.0.00
+
+Amount Due (INR)
+
+Rs.89,600.00
+
+Qty Line Total 1 Rs.88,900.00 1 Rs.700.00 1 Rs.0.00
+
+Subtotal           89,600.00   
+Tax                0.00        
+Total              89,600.00   
+Amount Paid        0.00        
+Amount Due (INR)   Rs.89,600.00

@@ -1,0 +1,34 @@
+ExpoHub expohub street
+
+II
+
+UIPATH EXPOHUB
+
+123456789
+
+ABC 123456 India
+
+Billed To Ram Godwale.
+.
+
+Description Shared Hosting LateFee
+
+Date of Issue 22/04/2020
+
+Due Date 22/05/2020
+
+Invoice Number 873102.
+
+Rate Rs.68,544.00 Rs.980.00 Rs.0.00
+
+Amount Due (INR)
+
+Rs.69,524.00
+
+Qty Line Total 1 Rs.68,544.00 1 Rs.980.00 1 Rs.0.00
+
+Subtotal           69,524.00   
+Tax                0.00        
+Total              69,524.00   
+Amount Paid        0.00        
+Amount Due (INR)   Rs.69,524.00
